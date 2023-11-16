@@ -14,11 +14,11 @@
 }
 
 .page-exit {
-    transform: translateY(0%);
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
+    /* transform: translateY(0%); */
+    /* position: absolute; */
+    /* left: 0; */
+    /* right: 0; */
+    /* top: 0; */
 }
 
 .page-exit-active {
@@ -27,7 +27,7 @@
     right: 0;
     top: 0;
     transform: translateY(-130%);
-    transition: all 400ms ease-out;
+    /* transition: all 400ms ease-out; */
 }
 
 @media (min-width: 1400px) {

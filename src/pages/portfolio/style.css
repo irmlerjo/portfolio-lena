@@ -78,3 +78,25 @@
 .po_item .content a:hover {
     text-decoration: none;
 }
+
+.the_menu .menu_item>a {
+    color: var(--text-color-2);
+    line-height: 1;
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+    transition: color 250ms cubic-bezier(0, 0, 0.58, 1) 0s;
+    padding: 4px 0px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.the_menu .menu_item>a:hover {
+    color: var(--text-color-3);
+}
+
+@media (min-width: 768px) {
+    .the_menu .menu_item>a {
+        font-size: 4.8vw;
+    }
+}

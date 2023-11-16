@@ -4,7 +4,7 @@
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
-    --text-color-3: rgb(204, 0, 0);
+    --text-color-3: rgb(88, 0, 204);
     --overlay-color: rgb(12 12 12 / 63%);
 }
 
@@ -14,7 +14,7 @@
     --secondary-color: #000;
     --text-color: #000;
     --text-color-2: #000;
-    --text-color-3: rgb(204, 0, 0);
+    --text-color-3: rgb(53, 32, 32);
     --overlay-color: rgb(255 255 255 / 70%);
 }
 
@@ -30,7 +30,7 @@ body {
     overflow-y: visible;
     background-color: var(--bg-color);
     color: var(--text-color);
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding-top: 60px;
@@ -48,7 +48,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Marcellus;
+    font-family: 'Roboto', sans-serif;
 }
 
 a,

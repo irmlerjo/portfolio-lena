@@ -1,6 +1,6 @@
-const logotext = "JOHN";
+const logotext = "li";
 const meta = {
-    title: "John Doe",
+    title: "lena irmler",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
@@ -16,8 +16,8 @@ const introdata = {
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "hi i'm lena (she / her)",
+    aboutme: "i am a student in audiovisual media with focus on immersive environments and event media",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -136,7 +136,7 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
+    YOUR_EMAIL: "jonas_irmler@online.de",
     YOUR_FONE: "(555)123-4567",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
     // creat an emailjs.com account 
