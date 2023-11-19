@@ -11,7 +11,7 @@ import { CSSTransition, TransitionGroup } from "react-transition-group";
 import { Container, Row, Col } from 'react-bootstrap'
 
 const AnimatedRoutes = withRouter(({ location }) => (
-  <TransitionGroup>
+  <TransitionGroup className="routes">
     <CSSTransition
       key={location.key}
       timeout={{
@@ -21,7 +21,7 @@ const AnimatedRoutes = withRouter(({ location }) => (
       classNames="page"
       unmountOnExit
     >
-      <Routes location={location}>
+      <Routes location={location} className="routes">
         <Route exact path="/" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />

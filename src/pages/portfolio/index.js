@@ -4,12 +4,12 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
-import psychotrop from '../../assets/images/psychotrop/WhatsApp Image 2021-07-11 at 19.36.11.jpg'
-import nightlife from '../../assets/images/NightlifeConversations/DSC03054 copy.jpg'
-import crossroads from '../../assets/images/crossroads/Crossroads_1.png'
-import sugarheist from '../../assets/images/SugarHeist/1.jpg'
-import shapeshifting from '../../assets/images/shapeshifting/IMG_9359.jpg'
-import seasons from '../../assets/images/Seasons/Screenshot (1).png'
+import psychotrop from '../../assets/images/psychotrop/detail_touch.jpg'
+import nightlife from '../../assets/images/NightlifeConversations/table_perspective.jpg'
+import crossroads from '../../assets/images/crossroads/overview.jpg'
+import sugarheist from '../../assets/images/SugarHeist/gameplay3.jpg'
+import shapeshifting from '../../assets/images/shapeshifting/detail_button.jpg'
+import seasons from '../../assets/images/Seasons/overview.png'
 
 export const Portfolio = () => {
   let images=[]
@@ -33,12 +33,12 @@ export const Portfolio = () => {
           <title> Projects | {meta.title} </title>{" "}
           <meta name="description" content={meta.description} />
         </Helmet> */}
-        <Row className="mb-5 mt-3 pt-md-3">
+        {/* <Row className="mb-5 mt-3 pt-md-3">
           <Col lg="8">
             <h1 className="display-4 mmy-4 ml-0b-4"> projects </h1>{" "}
             <hr className="t_border  text-left" />
           </Col>
-        </Row>
+        </Row> */}
         <Row>
           {/* <Col lg="4">
           <div className="menu__container p-3">

@@ -1,11 +1,14 @@
 @media only screen and (max-width: 991px) {
     .s_c {
-        padding-top: 40px;
+        padding-top: 20px;
     }
 }
 
 .page-enter {
     transform: translateY(100%);
+}
+.routes{
+    padding-top:0px;
 }
 
 .page-enter-active {

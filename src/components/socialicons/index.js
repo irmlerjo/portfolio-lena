@@ -14,9 +14,7 @@ import { Link } from "react-router-dom";
 
 
 export const Socialicons = (params) => {
-
-  const [ho_state,setHostate] = useState('');
-  const [po_state,setPostate] = useState('');
+  const [po_state,setPostate] = useState('my-2 marked');
   const [co_state,setCostate] = useState('');
   const [abt_state,setAbtstate] = useState('');
 
@@ -24,11 +22,7 @@ export const Socialicons = (params) => {
     setCostate('')
     setAbtstate('')
     setPostate('')
-    setHostate('')
-    if(event.target.name=="home"){
-      setHostate('link_lena marked')
-    }
-    if(event.target.name=="portfolio"){
+    if(event.target.name=="home"||event.target.name=="portfolio"){
       setPostate('my-2 marked')
     }
     if(event.target.name=="contact"){
@@ -48,7 +42,7 @@ export const Socialicons = (params) => {
       <ul className="the_menu">
         <li className="menu_item">
           <Link onClick={handleToggle} to="/" name="home"
-            className={ho_state || 'link_lena'}>lena irmler</Link>
+            className="link_lena marked">lena irmler</Link>
         </li>
         <li className="menu_item">
           <Link onClick={handleToggle} to="/portfolio" className={po_state || 'my-2'} name="portfolio" >projects</Link>
