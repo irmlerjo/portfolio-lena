@@ -5,11 +5,11 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataportfolio, meta } from "../../content_option";
 import psychotrop from '../../assets/images/psychotrop/detail_touch.jpg'
-import nightlife from '../../assets/images/NightlifeConversations/table_perspective.jpg'
+import nightlife from '../../assets/images/nightlifeconversations/table_perspective.jpg'
 import crossroads from '../../assets/images/crossroads/overview.jpg'
-import sugarheist from '../../assets/images/SugarHeist/gameplay3.jpg'
+import sugarheist from '../../assets/images/sugarheist/gameplay3.jpg'
 import shapeshifting from '../../assets/images/shapeshifting/detail_button.jpg'
-import seasons from '../../assets/images/Seasons/overview.png'
+import seasons from '../../assets/images/seasons/overview.png'
 
 export const Portfolio = () => {
   let images=[]
@@ -66,7 +66,7 @@ export const Portfolio = () => {
                 <img src={images[data.img]} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href={data.link}>view project</a>
+                  <Link to={"project/"+data.img}>view project</Link>
                 </div>
               </div>
               );
